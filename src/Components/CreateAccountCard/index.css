@@ -1,0 +1,210 @@
+/* font-family: 'Poppins', sans-serif; */
+.CreateAccount-main{
+    height: 900px;
+    width: 500px;
+    background-color:  rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+   color: rgba(0, 0, 0, 1);
+
+}
+.CreateAccount-Form{
+    height: 600px;
+    /* background-color: blue; */
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .CreateAccount-Form-input:{
+    border: hidden;
+} */
+.CreateAccount-button{
+    height: 80px;
+    width:340px ;
+    border-radius: 10px;
+    background-color:  rgba(201, 172, 201, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 30%;
+}
+.CreateAccount-button-options{
+    height:80px;
+    width:340px ;
+    border-radius: 10px;
+    /* background-color:  rgba(235, 235, 235, 1); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    border: 1px solid rgba(235, 235, 235, 1)
+}
+.DangerLogo
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    right: 20px;
+    margin-bottom: 30px;
+}
+.CA-LogoContainer
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CA-LogoImage{
+    height: 50px;
+    width: 30%;
+    /* background-color: red; */
+}
+.CA-Text1{
+    font-size: 25px
+}
+.CA-Text2{
+    font-size: 15px;
+    opacity: 50%;
+}
+/* .CA-Text3{
+    font-size: 12px;
+   position: relative;
+   left: 120px;
+   font-weight: 500;
+} */
+.CA-Text4{
+    opacity: 50%;
+    font-size: 14px;
+}
+.CA-Text5{
+    font-size: 11px;
+    opacity: 50%;
+}
+.CA-Text5Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.CA-Icon-Image{
+    height: 18px;
+    width: 18px;
+    margin-right: 8px;
+}
+.CA-Icon-Text{
+    font-size: 14px;
+}
+.CA-Text6{
+    opacity: 50%;
+}
+
+.CA-inputField-container{
+    height: 320px;
+    background-color: red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.CA-Text6Container {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.CA-Text6 {
+    opacity: 50%;
+    /* margin-top: 60px; */
+    color: rgba(0, 0, 0, 1);
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: blue; */
+}
+.CA-span{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-left: 5px;
+    /* background-color: green; */
+}
+.CA-Text7 {
+    opacity: 50%;
+    /* margin-top: 60px; */
+    color: rgba(0, 0, 0, 1);
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: blue; */
+    margin-left: 5px;
+}
+.CA-span1{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    margin-left: 5px;
+    /* background-color: green; */
+}
+.small-circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color:  rgba(0, 0, 0, 1);
+    opacity: 20%;
+}
+.CA-rectangle{
+    height: 12px;
+    width: 12px;
+}
+.CA-Terms-div{
+    display: flex;
+    /* justify-content: center; */
+    width: 60%;
+    /* background-color: pink; */
+    align-items: center;
+    margin-bottom: 15px;
+}
+.CA-Terms-subDiv{
+    display: flex;
+}
+.CreateAccount-Form-input-div{
+    height:80px;
+    width:320px ;
+    border-radius: 10px;
+    /* border: 1px solid rgba(235, 235, 235, 1); */
+    color: rgba(0, 0, 0, 1);
+    /* padding-left: 20px;  */
+    background-color: red;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px
+}
+.CreateAccount-Form-input{
+    height: 100%;
+    width:100%;
+    border-radius: 10px;
+    border: 1px solid rgba(235, 235, 235, 1);
+    color: rgba(0, 0, 0, 1);
+    padding-left: 20px;
+    /* margin-bottom: 15px; */
+}
+.CA-VisibleIcon{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    right: 610px;
+    /* bottom: 50px;
+    left: 150px */
+}

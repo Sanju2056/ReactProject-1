@@ -1,0 +1,115 @@
+/* font-family: 'Poppins', sans-serif; */
+.BodySecondContainer{
+    height: 800px;
+    width: 100%;
+    background-color: rgba(249, 249, 249, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgba(0, 0, 0, 1);
+    font-family: 'Poppins', sans-serif;
+}
+.BodySecondContainer-first-container{
+    height: 500px;
+    width: 40%;
+    /* background-color: red; */
+    line-height: 25px;
+    padding-top: 150px;
+}
+.BodySecondContainer-second-container{
+    height: 600px;
+    width: 40%;
+    /* background-color: green; */
+    display: flex;
+}
+.device-image-1{
+    height: 105px;
+    width: 256px;
+    rotate: 23 deg;
+    position: relative;
+    rotate: 23 deg;
+    transform: rotate(-20deg);
+    left: 9px;
+    top: 17px;
+    
+}
+.device-image{
+    height: 500px;
+    width: 300px;
+    z-index: 1;
+}
+.device-ss1{
+    position: relative;
+    bottom: 680px;
+    transform: rotate(23deg);
+    right: 84px;
+    width: 500px;
+    border-radius: 20px;
+}
+.device-ss2{
+    position: relative;
+    /* top: 28px; */
+    bottom: 656px;
+    left: 20px;
+    border-radius: 20px;
+}
+.BodySecondContainerButton{
+    height: 60px;
+    width: 150px;
+    background-color: rgba(201, 172, 201, 1);
+    border-radius: 13px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    color:  rgba(0, 0, 0, 1);
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+.BodySecondContainer-firstText{
+font-size: 32px;
+font-weight: 600;
+}
+.BodySecondContainer-secondText{
+    font-size: 17px;  
+    /* background-color: green; */
+    width: 460px;
+    line-height: 30px;
+
+}
+.hi{
+    height: 8px;
+    width: 8px;
+    border-radius: 5px;
+    background-color:  rgba(175, 181, 186, 1);
+    display: flex;
+    align-items: center;
+        line-height: 30px;
+
+}
+.hi-text{
+    height: 20px;
+    width: 400px;
+    /* background-color:green; */
+    margin-left: 7px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(175, 181, 186, 1); 
+}
+.hello{
+    height: 20px;
+    width: 400px;
+    display: flex;
+    /* background-color: yellow; */
+    /* justify-content: center; */
+    align-items: center;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.view{
+    height: 120px;
+    width: 200px;
+    /* background-color: blue; */
+
+}

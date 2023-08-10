@@ -1,0 +1,122 @@
+/* font-family: 'Poppins', sans-serif; */
+.LoginCard-main{
+    height: 900px;
+    width: 500px;
+    background-color:  rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+   color: rgba(0, 0, 0, 1);
+
+}
+.LoginCard-Form{
+    height: 600px;
+    /* background-color: blue; */
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.LoginCard-Form-input{
+    height: 50px;
+    width:320px ;
+    border-radius: 10px;
+    border: 1px solid rgba(235, 235, 235, 1);
+    color: rgba(0, 0, 0, 1);
+    padding-left: 20px;
+    margin-top: 15px;
+}
+/* .LoginCard-Form-input:{
+    border: hidden;
+} */
+.LoginCard-button{
+    height: 55px;
+    width:340px ;
+    border-radius: 10px;
+    background-color:  rgba(201, 172, 201, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LoginCard-button-options{
+    height: 55px;
+    width:340px ;
+    border-radius: 10px;
+    background-color:  rgba(235, 235, 235, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.DangerLogo
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    right: 20px;
+    margin-bottom: 30px;
+}
+.LogoContainer
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LogoImage{
+    height: 50px;
+    width: 30%;
+    /* background-color: red; */
+}
+.Text1{
+    font-size: 25px
+}
+.Text2{
+    font-size: 15px;
+    opacity: 50%;
+}
+.Text3{
+    font-size: 12px;
+   position: relative;
+   left: 120px;
+   font-weight: 500;
+}
+.Text4{
+    opacity: 50%;
+    font-size: 14px;
+}
+.Text5{
+    font-size: 11px;
+    opacity: 50%;
+}
+.Text5Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.Icon-Image{
+    height: 18px;
+    width: 18px;
+    margin-right: 8px;
+}
+.Icon-Text{
+    font-size: 14px;
+}
+.Text6{
+    opacity: 50%;
+    margin-top: 60px;
+}
+.VisibleIcon{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    bottom: 35px;
+    left: 150px
+}

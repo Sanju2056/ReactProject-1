@@ -1,0 +1,101 @@
+/* font-family: 'Poppins', sans-serif; */
+.ResetPassword-main {
+    height: 900px;
+    width: 500px;
+    background-color:  rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 1);
+}
+
+.Rp-Text1 {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+    padding: 0;
+}
+
+.Rp-Text2 {
+    font-size: 15px;
+    opacity: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.Rp-Text4 {
+    font-size: 14px;
+}
+
+.Rp-LogoContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Rp-LogoImage {
+    height: 50px;
+    width: 30%;
+    /* background-color: red; */
+}
+
+.ResetPassword-Form-input {
+    height: 50px;
+    width: 320px;
+    border-radius: 10px;
+    border: 1px solid rgba(235, 235, 235, 1);
+    color: rgba(0, 0, 0, 1);
+    padding-left: 20px;
+    /* margin-top: 15px; */
+    margin-bottom: 15px;
+}
+
+.ResetPassword-button {
+    height: 55px;
+    width: 340px;
+    border-radius: 10px;
+    background-color: rgba(201, 172, 201, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 30%;
+}
+
+.Rp-Text6 {
+    /* opacity: 50%; */
+    /* margin-top: 60px; */
+    color: rgba(0, 0, 0, 1);
+}
+
+.Rp-Text6Container {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.Rp-TextContainer{
+    height: 120px;
+    /* background-color: blue; */
+    width: 62%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    /* margin-top: 20px; */
+}
+.Rp-DangerLogo
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    right: 20px;
+    margin-bottom: 30px;
+}
