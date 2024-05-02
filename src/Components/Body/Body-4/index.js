@@ -21,10 +21,7 @@ const BodyFourthContainer = () => {
                         Lorem ipsum dolor sit amet consecte
                     </p>
                     <div className="bodyFourthContainer-firstText-container-secondText">
-                        Lorem ipsum dolor sit amet consectetur. Viverra hac vulputate felis nulla egestas vitae commodo
-                    </div>
-                    <div className="bodyFourthContainer-firstText-container-lastText">
-                        consequat vel. Donec in dolor sollicitudin ut ultricies non mollis tempor proin. Et adipiscing sit.
+                        Lorem ipsum dolor sit amet consectetur. Viverra hac vulputate felis nulla egestas vitae commodo consequat vel. Donec in dolor sollicitudin ut ultricies non mollis tempor proin. Et adipiscing sit.
                     </div>
                 </div>
             </div>

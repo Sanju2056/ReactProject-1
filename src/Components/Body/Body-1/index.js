@@ -18,11 +18,11 @@ const BodyFirstContainer = () => {
                     Lorem ipsum dolor sit amet consecte turnim
                 </p>
                 <div className="bodyFirstContainer-firstText-container-secondText">
-                    With our integrated CRM, project management, collaboration and invoicing capabilities, you can
+                    With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.
                 </div>
-                <div className="bodyFirstContainer-firstText-container-lastText">
+                {/* <div className="bodyFirstContainer-firstText-container-lastText">
                     manage every aspect of your business in one secure platform.
-                </div>
+                </div> */}
             </div>
             <div className="bodyFirstContainer-image-container">
                 <img src={BodyImage} className="bodyFirstContainer-Image" />

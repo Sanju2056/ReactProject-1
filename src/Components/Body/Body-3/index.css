@@ -1,12 +1,13 @@
 /* font-family: 'Poppins', sans-serif; */
 .BodyThirdContainer-main{
-    height: 400px;
+    height: max-content;
     width: 100%;
     background-color:  rgba(238, 233, 250, 0.3);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 .BodyThirdContainer-button{
     height: 60px;
@@ -36,4 +37,26 @@
     /* background-color: red; */
     width: 600px;
     line-height: 25px;
+}
+@media only screen and (max-width:600px){
+    .BodyThirdContainer-firstText{
+        font-size: 20px;
+    }
+    .BodyThirdContainer-secondText{
+        font-size: 14px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:768px){
+    .BodyThirdContainer-firstText{
+        font-size: 28px;
+    }
+    .BodyThirdContainer-secondText{
+        font-size: 18px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
