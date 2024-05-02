@@ -16,24 +16,22 @@ import CreatePhoneNo from "../CreatePhoneNo";
 
 import './index.css'
 
-const Body = () =>{
-return( 
+const Body = () => {
+  return (
     <div className="body-main">
-
-{/* <LogInCard/> */}
-     {/* <ResetPassword/> */}
-     {/* <ResetPasswordEmail/> */}
-   {/* <CreateAccountCard/> */}
-   {/* <EnterFnLName/> */}
-{/* <CreatePhoneNo/> */}
-
-      <Logos/> 
-      <BodyFirstContainer/> 
-      <BodySecondContainer/>
-      <BodyThirdContainer/>
-      <BodyFourthContainer/>
-      <BodyFifthContainer/>
+      {/* <LogInCard/> */}
+      {/* <ResetPassword/> */}
+      {/* <ResetPasswordEmail/> */}
+      {/* <CreateAccountCard/> */}
+      {/* <EnterFnLName/> */}
+      {/* <CreatePhoneNo/> */}
+      <Logos />
+      <BodyFirstContainer />
+      <BodySecondContainer />
+      <BodyThirdContainer />
+      <BodyFourthContainer />
+      <BodyFifthContainer />
     </div>
-)
+  )
 }
 export default Body;

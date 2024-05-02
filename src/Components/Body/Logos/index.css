@@ -16,7 +16,8 @@
     margin-top: 80px;
     text-align: center;
 }
-.logos-logo-containers-main{
+
+.logos-logo-containers-main {
     height: 200px;
     width: 80%;
     /* background-color: blue; */
@@ -24,7 +25,8 @@
     justify-content: space-around;
     align-items: center;
 }
-.logos-logo-container{
+
+.logos-logo-container {
     height: 140px;
     width: 20%;
     border-radius: 6px;
@@ -34,8 +36,76 @@
     align-items: center;
     justify-content: center;
 }
-.logo-image{
+
+.logo-image {
     height: 50px;
     width: 180px;
- 
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .logos-main {
+        /* background-color: red; */
+        height: max-content;
+        margin-bottom: 30px;
+    }
+
+    .logos-header {
+        margin-top: 40px;
+    }
+
+    .logos-logo-containers-main {
+        /* background-color: green; */
+        display: flex;
+        width: 100%;
+        overflow-y: scroll;
+        gap: 20px;
+        height: max-content;
+        padding: 25px;
+        margin-left: 50px;
+    }
+
+    .logos-logo-containers-main::-webkit-scrollbar {
+        display: none;
+    }
+
+    .logos-logo-container {
+        height: max-content;
+        width: max-content;
+        border-radius: 6px;
+        /* background-color: blue; */
+        box-shadow: 0px 1px 2px 0px rgba(85, 105, 135, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .logo-image {
+        height: 20px;
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 768px) {
+    .logos-main {
+        margin-bottom: 30px;
+    }
+
+    .logos-logo-containers-main {
+        display: flex;
+        gap: 20px;
+        overflow-y: scroll;
+    }
+
+    .logos-logo-containers-main::-webkit-scrollbar {
+        display: none;
+    }
+
+    .logos-logo-container {
+        height: max-content;
+        width: max-content;
+        padding: 40px;
+    }
 }

@@ -87,15 +87,30 @@
 }
    @media only screen and (max-width: 600px) {
       
-   
+   .main{
+      height: 600px;
+   }
       .main-text {
-         height: 250px;
+         height: 350px;
          width: 300px;
+         /* background:red; */
+         left: 30px;
+         top:150px
       }
    
       .main-text-header {
-         height: 150px;
-         width: 300px;
-         font-size: 10px;
+       height: max-content;
+       width: max-content;
+       font-size: 18px;
+       margin-bottom: 10px;
+         /* background-color: green; */
+      }
+      .main-text-description{
+         height: max-content;
+         width: max-content;
+         margin-bottom: 130px;
+      }
+      .main-text-description-texts{
+         font-size: 12px;
       }
    }
